@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9C97">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sig" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Member Sinup"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+   <android.support.design.widget.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp">
+
+       <EditText
+           android:id="@+id/et_name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:backgroundTint="#EF4581"
+           android:drawablePadding="20dp"
+           android:hint="Name"
+           android:gravity="center"
+           android:lines="1"
+           android:maxLength="8"
+           android:inputType="text" />
+   </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/et_fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EF4581"
+                android:drawablePadding="20dp"
+                android:hint="Fullname"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLength="12"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/et_mobil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EF4581"
+                android:drawablePadding="20dp"
+                android:hint="Mobile"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLength="10"
+                android:inputType="number" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EF4581"
+                android:drawablePadding="20dp"
+                android:hint="Email"
+                android:gravity="center"
+                android:lines="1"
+                android:maxLength="30"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <Button
+            android:id="@+id/sub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bt2"
+            android:text="Submit"/>
+</LinearLayout>
+</LinearLayout>
